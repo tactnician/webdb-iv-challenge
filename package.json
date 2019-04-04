@@ -1,0 +1,23 @@
+{
+  "name": "recipes",
+  "version": "1.0.0",
+  "description": "webdb-iv-challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": "https://github.com/tactnician/webdb-iv-challenge.git",
+  "author": "tactnician <tactnician@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "knex": "^0.16.3",
+    "node": "^11.12.0",
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
